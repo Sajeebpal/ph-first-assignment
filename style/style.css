@@ -236,10 +236,11 @@ main{
 .touch-sec{
     display: flex;
     align-items: center;
-    gap: 115px;
+    gap: 100px;
     margin-top: 100px;
-    justify-content: space-between;
-    /* max-width: 1140; */
+    /* justify-content: space-between; */
+    
+    
 }
 .input-head{
     color: rgba(0, 0, 0, 0.884);
@@ -255,7 +256,7 @@ main{
     border: none;
     font-size: 20px;
     border-radius: 10px;
-    width: 100%;
+    width: 500px;
     
 }
 
@@ -263,21 +264,17 @@ main{
     font-size: 95px;
     font-weight: bold;
     margin: 0;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .input-form{
     width: 50%;
-    margin-right: 35px;
+    /* margin-right: 35px; */
 }
 
 .touch-btn{
     width: 100%;
     margin-top: 30px ;
-}
-
-.textarea{
-    margin: 0;
 }
 
 
