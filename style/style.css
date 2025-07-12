@@ -1,0 +1,52 @@
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Shared styles */
+.primary-color{
+    background-color: #4E47FF;
+}
+
+.btn-primary{
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Nav bar styles */
+
+header{
+    
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+}
+
+.nav-logo{
+    font-size: 35px;
+    font-weight: 800;
+    margin: 0;
+    color: #4E47FF;
+}
