@@ -255,6 +255,7 @@ main{
     font-size: 20px;
     border-radius: 10px;
     width: 100%;
+    
 }
 
 .touch-tittle{
@@ -266,12 +267,12 @@ main{
 
 .input-form{
     width: 50%;
-    /* margin-right: 35px; */
+    margin-right: 35px;
 }
 
 .touch-btn{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 30px ;
 }
 
 .textarea{
