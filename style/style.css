@@ -178,6 +178,7 @@ main{
     margin: 0;
 }
 .feedback-date{
+    font-size: 15px;
     color: rgba(179, 179, 179, 1);
     margin: 0;
 }
