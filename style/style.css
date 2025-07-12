@@ -230,6 +230,7 @@ main{
 
 .wc-big-img{
     border-radius: 50px;
+    margin-top: 30px;
 }
 
 .touch-sec{
@@ -290,7 +291,7 @@ footer{
 }
 
 .foot-logo{
-    font-size: 100px;0
+    font-size: 100px;
     font-weight: 800;
     color: #4E47FF;
     margin: 0;
