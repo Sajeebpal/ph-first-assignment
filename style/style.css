@@ -15,6 +15,10 @@
     "wdth" 100;
 }
 
+body{
+background-color: #F5F8FF;
+}
+
 /* Shared styles */
 .primary-color{
     background-color: #4E47FF;
@@ -70,4 +74,185 @@
 header{
     background-image: url('../Assets/Hero-bg.png');
     margin-bottom: 0;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* main styles */
+
+.top-action{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 0;
+    align-items: center;
+}
+
+.banner-bottom-pic{
+    border-radius: 45px;
+}
+
+.first-tittle{
+    font-weight: bold;
+    font-size: 40px;
+    color: #252432;
+}
+
+.first-des{
+    color: #252432;
+    font-size: 25px;
+}
+
+.banner-bottom{
+    width: 500px;
+}
+
+.user-counts{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.join-tittle{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.user-base{
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 140px;
+    border-radius: 25px;
+
+}
+
+.user-amount-tittle{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+    
+}
+
+.user-amount-des{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.star-pic-container{
+    width: 90px;
+    background-image: url('../Assets/icon-star.png');
+}
+
+.feedback-tittle{
+    font-size: 20px;
+    margin: 24px 0 8px 0;
+
+}
+
+.feedback-des{
+    color: #252432;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.user-pic{
+    border-radius: 100%;
+}
+.user-name{
+    color: rgba(117, 117, 117, 1);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.feedback-date{
+    color: rgba(179, 179, 179, 1);
+    margin: 0;
+}
+.user-details{
+    display: flex;
+    gap: 12px;
+}
+
+.user-feedback-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.user-feedback{
+    padding: 25px;
+    box-shadow: 2px 2px 5px rgba(122, 120, 120, 0.623);
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+.user-feedbacks-tittle{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.user-feedbacks{
+    margin: 135px 0;
+}
+
+.focus-sec{
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 70px 150px;
+    border-radius: 15px;
+}
+
+.focus-tittle{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin: 0 0 20px 0;
+    
+}
+.focus-des{
+    color: #252432;
+    font-size: 20px;
+    font-weight: 6700;
+}
+
+.wc-big-img{
+    border-radius: 50px;
+}
+
+.touch-sec{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.input-head{
+    color: rgba(0, 0, 0, 0.884);
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin: 10px;
+}
+
+.input-style{
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0 20px 35px;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.touch-tittle{
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0;
+    width: 50%;
+}
+
+.touch-sec form{
+    width: 50%;
 }
